@@ -1,5 +1,5 @@
 class Javabuzz {
-  isDivisibleByThree(number) {
+  isDivisibleByThree(number, divisor) {
     return (number % 3 == 0);
   }
   isDivisibleByFive(number){
