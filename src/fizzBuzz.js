@@ -6,6 +6,6 @@ class Javabuzz {
     return (number % 5 == 0);
   }
   isDivisibleByThreeAndFive(number){
-    return true
+    return (number % 15 == 0);
   }
 }

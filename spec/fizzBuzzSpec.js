@@ -29,6 +29,11 @@ describe('Javabuzz', function() {
     it('divisible by 5', function() {
       javabuzz = new Javabuzz();
       expect(javabuzz.isDivisibleByFive(1)).toBe(false)
-    } );
+    });
+
+    it('divisible by 3 and 5', function() {
+      javabuzz = new Javabuzz();
+      expect(javabuzz.isDivisibleByThreeAndFive(1)).toBe(false)
+    });
   });
 });
