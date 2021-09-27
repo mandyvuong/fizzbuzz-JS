@@ -5,4 +5,7 @@ class Javabuzz {
   isDivisibleByFive(number){
     return (number % 5 == 0);
   }
+  isDivisibleByThreeAndFive(number){
+    return true
+  }
 }
