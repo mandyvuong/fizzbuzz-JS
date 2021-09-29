@@ -16,8 +16,8 @@ class Fizzbuzz {
   }
 }
 
-let fizzBuzz = new FizzBuzz();
+let fizzbuzz = new Fizzbuzz();
 
 for (let i = 1; i <= 100; i++) {
-  console.log(fizzBuzz.play(i));
+  console.log(fizzbuzz.says(i));
 }
